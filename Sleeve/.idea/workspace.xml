@@ -39,7 +39,7 @@
       <file leaf-file-name="space_files_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/space_files_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="437" selection-end="437" vertical-scroll-proportion="0.29239765">
+            <state line="24" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -66,7 +66,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/space_files/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="-0.0">
+            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="6.206897">
               <folding />
             </state>
           </provider>
@@ -84,7 +84,7 @@
       <file leaf-file-name="space_file.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/space_file.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="34" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="17" column="72" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,10 +116,10 @@
         <option value="$PROJECT_DIR$/db/migrate/20111117131802_add_source_to_space_files.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20111117135603_add_source2_to_space_files.rb" />
         <option value="$PROJECT_DIR$/app/views/space_files/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/space_file.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/space_files_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/space_file.rb" />
       </list>
     </option>
   </component>
@@ -643,14 +643,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/space_files_controller.rb</url>
-          <line>24</line>
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
@@ -716,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/space_file.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="16" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
@@ -744,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/space_files/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="1" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
@@ -758,9 +737,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/space_files/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="6.206897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/space_file.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="72" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/space_files_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="437" selection-end="437" vertical-scroll-proportion="0.29239765">
+        <state line="24" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
