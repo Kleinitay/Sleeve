@@ -3,10 +3,6 @@ class SpaceFilesController < ApplicationController
         @space_file = SpaceFile.new
     end
 
-    def craete
-
-    end
-
     def index
         @space_files = SpaceFile.all
 

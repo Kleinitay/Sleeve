@@ -6,6 +6,8 @@
 #  name       :string(255)
 #  created_at :datetime
 #  updated_at :datetime
+#  Lat        :integer(10)
+#  Long       :integer(10)
 #
 
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html

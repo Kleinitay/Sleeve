@@ -6,6 +6,8 @@
 #  name       :string(255)
 #  created_at :datetime
 #  updated_at :datetime
+#  Lat        :integer(10)
+#  Long       :integer(10)
 #
 
 require 'test_helper'

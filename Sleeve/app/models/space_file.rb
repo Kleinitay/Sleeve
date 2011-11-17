@@ -6,6 +6,8 @@
 #  name       :string(255)
 #  created_at :datetime
 #  updated_at :datetime
+#  Lat        :integer(10)
+#  Long       :integer(10)
 #
 
 class SpaceFile < ActiveRecord::Base
@@ -13,7 +15,7 @@ class SpaceFile < ActiveRecord::Base
 
 
     def path_for_origin
-        File.join("files", "#{:id}_#{name}")
+        File.join("files", "#{id}_#{name}")
     end
 
 end

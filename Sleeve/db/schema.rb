@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111117131802) do
+ActiveRecord::Schema.define(:version => 20111117135603) do
 
 # Could not dump table "space_files" because of following ArgumentError
 #   invalid date
