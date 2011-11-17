@@ -4,35 +4,45 @@
     <title>Pick It Up!</title>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/site.css" />
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/maps.js"></script>
-  </head>
-  <body onload="initialize()">
-    <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>About Us</h3>
-            <ul class="links">
-              <li><a href="http://api.rubyonrails.org/">TODO1</a></li>
-              <li><a href="http://stdlib.rubyonrails.org/">TODO2</a></li>
-              <li><a href="http://stdlib.rubyonrails.org/">TODO3</a></li>
-              <li><a href="http://stdlib.rubyonrails.org/">TODO4</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <div id="content">
-        <div id="header">
-          <h1>Pick It Up!</h1>
-          <h2>Drop files on a map</h2>
-        </div>
-        <div id="getting-started">
-	  <div id="map_canvas"></div>
-        </div>
-      </div>
-
-      <div id="footer">&nbsp;</div>
+</head>
+<body onload="initialize_map()">
+  <div id="page">
+    <div id="sidebar">
+      <ul id="sidebar-items">
+        <li>
+          <h3>About Us</h3>
+          <ul class="links">
+            <li>
+	      <a href="http://api.rubyonrails.org/">TODO1</a>
+	    </li>
+            <li>
+	      <a href="http://stdlib.rubyonrails.org/">TODO2</a>
+	    </li>
+            <li>
+	      <a href="http://stdlib.rubyonrails.org/">TODO3</a>
+	    </li>
+            <li>
+	      <a href="http://stdlib.rubyonrails.org/">TODO4</a>
+	    </li>
+          </ul>
+        </li>
+      </ul>
     </div>
-  </body>
+
+    <div id="content">
+      <div id="header">
+        <h1>Pick It Up!</h1>
+        <h2>Drop files on a map</h2>
+      </div>
+      <div id="getting-started">
+	<div id="map_canvas">
+	</div>
+      </div>
+    </div>
+
+    <div id="footer">&nbsp;</div>
+  </div>
+</body>
 </html>
