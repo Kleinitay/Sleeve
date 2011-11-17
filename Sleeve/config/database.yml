@@ -25,7 +25,7 @@ test:
   database: Sleeve_test
   pool: 5
   username: root
-  password:
+  password: root
   host: localhost
 
 production:
@@ -35,5 +35,5 @@ production:
   database: Sleeve_production
   pool: 5
   username: root
-  password:
+  password: root
   host: localhost

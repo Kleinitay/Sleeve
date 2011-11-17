@@ -15,7 +15,7 @@ class SpaceFilesController < ApplicationController
     def create
         @space_file = SpaceFile.new(params[:space_file])
         if @space_file.save
-            render 'index'
+            redirect_to 'files'
         else
             render 'new'
         end

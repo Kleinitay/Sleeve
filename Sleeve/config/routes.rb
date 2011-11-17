@@ -5,6 +5,8 @@ Sleeve::Application.routes.draw do
 
     match 'files' => 'space_files#index'
     match 'files/download/:id' => 'space_files#download'
+    match 'files/new' => 'space_files#new'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
