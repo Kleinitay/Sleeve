@@ -21,5 +21,11 @@ class SpaceFilesController < ApplicationController
         end
     end
 
+    def download
+        @space_file = SpaceFile.find(params[:id])
+        filepath = File.join(Rails.root, "public",  @space_file.path_for_origin)
+        send_file filepath
+    end
+
 
 end

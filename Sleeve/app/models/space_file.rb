@@ -15,7 +15,8 @@ class SpaceFile < ActiveRecord::Base
 
 
     def path_for_origin
-        File.join("files", "#{id}_#{name}")
+        filepath = File.join("/files", "#{id}_#{name}")
+        filepath
     end
 
 end
