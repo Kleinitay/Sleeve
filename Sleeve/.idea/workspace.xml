@@ -27,10 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="space_files_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="space_files_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/space_files_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="49" selection-start="100" selection-end="100" vertical-scroll-proportion="0.06430868">
+            <state line="1" column="49" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="12" selection-start="48" selection-end="48" vertical-scroll-proportion="0.24691358">
               <folding />
             </state>
           </provider>
@@ -108,15 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="space_file.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/space_file.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="72" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -131,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/user/new.erb" />
         <option value="$PROJECT_DIR$/app/controllers/user_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
@@ -147,6 +146,7 @@
         <option value="$PROJECT_DIR$/app/views/space_files/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/space_files/filtered.erb" />
         <option value="$PROJECT_DIR$/app/controllers/space_files_controller.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -680,13 +680,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20111117130936_add_location_to_space_files.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="296" selection-start="165" selection-end="165" vertical-scroll-proportion="0.1754386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="16" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
@@ -787,7 +780,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/space_files_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="49" selection-start="100" selection-end="100" vertical-scroll-proportion="0.06430868">
+        <state line="1" column="49" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="48" selection-end="48" vertical-scroll-proportion="0.24691358">
           <folding />
         </state>
       </provider>
