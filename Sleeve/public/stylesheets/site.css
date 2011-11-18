@@ -169,3 +169,11 @@ a:hover {
     height:500px;
     width:100%;
 }
+
+.map_popup {
+    text-align:center;
+}
+
+#upload {
+    height:100px;
+}
