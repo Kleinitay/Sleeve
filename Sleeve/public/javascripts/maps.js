@@ -114,7 +114,7 @@ function populateMap(map) {
     $.getJSON('/files.json', function(data) {
 	$.each(data, function(i, obj) {
 	    $.each(obj, function(type, file) {
-		var fileLocation = new google.maps.LatLng(file.Lat, file.Long);
+		var fileLocation = new google.maps.LatLng(file.Lat, file.Lon);
 		var marker = new google.maps.Marker({
 		    position:fileLocation,
 		    title:file.name});
