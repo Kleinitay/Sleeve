@@ -96,10 +96,11 @@ function getDownloadHTML(filename, id, mime) {
 /* marker: the draggable upload marker */
 function getUploadHTML(marker) {
     return '<div id="upload">' +
-    '<form accept-charset="UTF-8" action="/space_files" enctype="multipart/form-data" method="post">' +
-	'  <label for="space_file_name">Name</label><br />' +
-	'  <input id="space_file_name" name="space_file[name]" size="30" type="text" /><br />' +
-	'  <label for="space_file_File">File</label>' +
+	'<form accept-charset="UTF-8" action="/space_files" enctype="multipart/form-data" method="post"' +
+	'style="margin:0; padding:0">' +
+	'  <label style="display:inline;" for="space_file_name">Name</label>' +
+	'  <input style="display:inline;" id="space_file_name" name="space_file[name]" size="30" type="text" /><br />' +
+	'  <label style="display:inline;" for="space_file_File">File</label>' +
 	'  <input id="space_file_source" name="space_file[source]" type="file" />' +
 	'  <input id="space_file_submit" name="commit" type="submit" value="Upload" />' +
 	'</form>' +
