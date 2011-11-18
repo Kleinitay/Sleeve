@@ -1,0 +1,11 @@
+<% @space_files.each do |spacefile| %>
+    <p>
+        <%= spacefile.name %>
+        <br/>
+        <%= spacefile.Lat %>
+        <br/>
+        <%= spacefile.Lon %>
+        <br/>
+        <%= link_to "Download file", "files\\download\\#{spacefile.id}" %>
+    </p>
+<% end %>
