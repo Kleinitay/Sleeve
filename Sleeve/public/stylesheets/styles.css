@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style type="text/css">
+
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing block. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+}
+.container #recent {
+	background-image: url(../images/recent_new.png);
+	background-repeat: no-repeat;
+	height: 213px;
+	width: 423px;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #202020;
+	text-decoration: none;
+	background-image: url(../images/bg.jpg);
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.bigcontainer {
+	width: 800px; /* the auto value on the sides, coupled with the width, centers the layout */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	position:relative;
+	z-index:2;
+}
+
+
+
+#map{
+	background-image: none !important;
+	width:100%;
+	height:100%;
+	position:relative;
+	z-index:1;
+	display:block;
+	min-height:400px;
+	
+}
+
+
+#logotop {
+    background-image: url("../images/logotop.png");
+    float: left;
+    height: 147px;
+    position:relative;
+    width: 275px;
+	z-index:4;
+
+}
+
+#logotop a{
+
+	height: 147px;
+	width: 275px;
+	display:block;
+	z-index:5;
+
+}
+
+
+
+#nav {
+    float: left;
+    left: 90px;
+    position:relative;
+    width: 300px;
+	z-index:4;
+	top:0px;
+	color:#fff;
+	
+}
+
+#nav a{
+
+	font-size:12px !important;
+	color:#fff !important;
+	text-decoration:none;
+}
+
+#header {
+	
+	width:100%;
+	background-color:#232323;
+	height:40px;
+	
+	position:relative;
+	z-index:3;
+
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #000;
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 423px; /* the auto value on the sides, coupled with the width, centers the layout */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+
+
+.container #login {
+}
+
+.container #logo {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	height: 236px;
+	width: 423px;
+	margin-top: 126px;
+}
+
+
+.container #logo a{
+
+	height: 236px;
+	width: 423px;
+	display:block;
+
+}
+
+
+
+.container #login {
+	height: 66px;
+	width: 423px;
+	background-image: url(../images/input.png);
+	background-repeat: no-repeat;
+}
+.container #login form #searchword {
+	background-color: rgba(255,255,255,0);
+	background-image: none;
+	position: relative;
+	width: 250px;
+	border:none;
+	left:54px;
+	top:24px;
+	font-size:14px;
+}
+.container #login form .button {
+	
+	background-color: rgba(255,255,255,0);
+	background-image: none;
+	position: relative;
+	border:none;
+	left:98px;
+	top:24px;
+	font-size:14px;
+	
+	
+	
+}
+
+
+
+
+
+
+
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty block element as the final element following the last floated block (within the .container) if the footer is removed or taken out of the .container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+#wrapper {
+	background-image: url(../images/map.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 860px;
+}
+#wrapper header {
+	background-color: #383838;
+	height: 42px;
+	width: 100%;
+}
+
+
+
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
