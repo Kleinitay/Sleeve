@@ -173,3 +173,7 @@ a:hover {
 .map_popup {
     text-align:center;
 }
+
+#upload {
+    height:200px;
+}
