@@ -15,7 +15,7 @@ class SpaceFilesController < ApplicationController
     def create
         @space_file = SpaceFile.new(params[:space_file])
         if @space_file.save
-            redirect_to 'files'
+            redirect_to '/'
         else
             render 'new'
         end
@@ -25,6 +25,14 @@ class SpaceFilesController < ApplicationController
         @space_file = SpaceFile.find(params[:id])
         filepath = File.join(Rails.root, "public",  @space_file.path_for_origin)
         send_file filepath
+    end
+
+    def filtered
+        min_long = params[:minLo].insert(2, ".")
+        max_long = params[:maxLo].insert(2, ".")
+        min_lat = params[:minLat].insert(2, ".")
+        max_lat = params[:maxLat].insert(2, ".")
+        @space_files = SpaceFile.find(:all, :conditions => ["Lat < ? and Lat > ? and Lon < ? and Lon > ?", max_lat.to_f, min_lat.to_f, max_long.to_f, min_long.to_f])
     end
 
 
