@@ -58,6 +58,12 @@ function UploadButton(controlDiv, map) {
 	    infoWindow.open(map, marker);
 	    infoWindow.setContent(getUploadHTML(marker));
 	});
+	google.maps.event.addListener(marker, 'dragend', function (){
+	    infoWindow = getInfoWindow();
+	    latlng = marker.getPosition();
+	    $("#lat").attr("value", latlng.lat());
+	    $("#lon").attr("value", latlng.lng());
+	});
     });
 }
 
@@ -98,10 +104,12 @@ function getUploadHTML(marker) {
     return '<div id="upload">' +
 	'<form accept-charset="UTF-8" action="/space_files" enctype="multipart/form-data" method="post">' +
 	'  <label for="space_file_name">Name</label>' +
-	'  <input id="space_file_name" name="space_file[name]" size="30" type="text" /><br />' +
+	'  <input name="space_file[name]" size="30" type="text" /><br />' +
 	'  <label for="space_file_File">File</label>' + '<br />' +
-	'  <input id="space_file_source" name="space_file[source]" type="file" />' +
-	'  <input id="space_file_submit" name="commit" type="submit" value="Upload" />' +
+	'  <input name="space_file[source]" type="file" />' +
+	'  <input name="commit" type="submit" value="Upload" />' +
+	'  <input id="lon" name="space_file[Lon]" type="hidden" value="35.000519" />' +
+	'  <input id="lat" name="space_file[Lat]" type="hidden" value=32.819496 />' + 
 	'</form>' +
 	'</div>';
 }
