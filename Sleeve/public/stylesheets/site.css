@@ -177,3 +177,29 @@ a:hover {
 #upload {
     height:100px;
 }
+
+/* upload form */
+form {
+    width:300px;
+}
+
+input {
+    float: left;
+    display: inline;
+    margin-bottom: 13px;
+    width: 150px;
+    clear:both;
+}
+
+label {
+    display: inline;
+    float: left;
+    width: 54px;
+    
+}
+
+
+#space_file_submit {
+    position:relative;
+    top:20px;
+}
