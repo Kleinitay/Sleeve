@@ -1,0 +1,21 @@
+<%= form_for(@space_file, :html => {:multipart => true}) do |f| %>
+    <div class="field">
+        <%= f.label :name %><br />
+        <%= f.text_field :name %>
+    </div>
+    <div class="field">
+        <%= f.label :Lat %><br />
+        <%= f.text_field :Lat %>
+    </div>
+    <div class="field">
+        <%= f.label :Lon %><br />
+        <%= f.text_field :Lon %>
+    </div>
+    <div>
+        <%= f.label :File %>
+        <%= f.file_field :source %>
+    </div>
+    <div>
+        <%= f.submit 'Upload' %> | <%= link_to 'Cancel', "/" %>
+    </div>
+<% end %>
